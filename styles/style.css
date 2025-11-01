@@ -29,7 +29,6 @@
 
 
 .header__link {
-  text-decoration: none;
   text-decoration: underline;
   text-underline-offset: 4px;
   text-decoration-thickness: 1px;
@@ -48,7 +47,7 @@
   max-height: 105px;
 }
 
-.address {  
+.address {
   font-style: normal;
   text-underline-offset: 4px;
   font-size: 18px;
@@ -64,7 +63,7 @@
 
 .cover {
   position: relative;
-  margin-top: 4px;
+  margin-top: 3px;
   width: 1100px;
   height: 757px;
   background: url(../images/cover.jpg) no-repeat center / cover;
@@ -118,7 +117,7 @@
   letter-spacing: 0;
 }
 
-.cover__description{
+.cover__description {
   position: absolute;
   bottom: 50px;
   right: 50px;
@@ -317,13 +316,13 @@
 footer {
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  margin-top: 166px;
+  margin-top: 167px;
   max-width: 1100px;
   padding: 0 50px 82px;
 }
 
 .footer__address {
-  padding-top: px;
+  padding-top: 1px;
 }
 
 .footer__menu {
@@ -342,7 +341,6 @@ footer {
 }
 
 .footer__menu-link {
-  text-decoration: none;
   text-decoration: underline;
   text-underline-offset: 4px;
   text-decoration-thickness: 1px;
